@@ -19,7 +19,7 @@ const minutes = Math.floor(time / 60);
 
     function startBreak() {
         clearInterval(timer);
-    time = 300; // 5 min
+    time = 900; // 15 min
     updateDisplay();
     timer = setInterval(countdown, 1000);
 }
